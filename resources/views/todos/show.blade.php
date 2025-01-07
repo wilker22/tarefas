@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    Single Todo: {{ $todo->name }}
+    Tarefa: {{ $todo->name }}
 @endsection
 
 @section('content')
@@ -12,7 +12,7 @@
         <div class="col-md-6">
             <div class="card card-default">
                 <div class="card-header">
-                    Details
+                    Detalhes
                 </div>
                 <div class="card-body">
                     {{ $todo->description }}
